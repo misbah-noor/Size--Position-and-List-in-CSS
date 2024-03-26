@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        li{
+            display: inline;
+            padding: 25px;
+        }
+
+        header{
+            background-color: black;
+            color: white;
+            height: 70px;
+        }
+        ul{
+            padding: 20px;
+        }
+
+        .paragraph{
+            text-align: center;
+            border: 2px solid chartreuse;
+        }
+
+        .container{
+            background-color: tomato;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            padding: 0 34px;
+            position: relative;
+            bottom: 0;
+        }
+
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(26, 139, 139);
+            /* position: static; is a default position*/
+            /*this position property works with top/bottom,left/right values*/
+            /*position: relative;
+            bottom: 45px;
+            left: 390px;*/
+            /*this property just like absolute except the element is positioned to the browser window*/
+            position: fixed;
+            right: 0;
+            bottom: 0;
+        }
+
+        .box2{
+          background-color: springgreen;
+          height: 200px;
+          width: 200px;
+          
+        }   
+</style>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+    <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem voluptates perspiciatis necessitatibus sed architecto sit laudantium nobis tempora amet maxime?</p>
+    <div class="box">This is a box</div>
+    <div class="box2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, exercitationem recusandae officia fugiat sapiente blanditiis enim repudiandae ipsa officiis ullam?
+    </div>
+</div>
+</body>
+</html>

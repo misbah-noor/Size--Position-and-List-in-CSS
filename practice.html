@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navbar</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*responsive navbar*/
+    .ul1 li{
+        list-style-type: none;
+        display: inline;
+        font-size: 4vw;
+        padding: 15px;
+    }
+
+    .header1{
+        background-color: black;
+        color: white;
+        padding: 25px;
+       
+    }
+    /*sticky navbar by using position property*/
+    .header2{
+       background-color: darkblue;
+       color: white;
+       padding: 25px;
+       position: sticky;
+       top: 0;
+    }
+    .ul2 li{
+         list-style-type: none;
+         display: inline;
+         font-size: 2vw;
+         padding: 0 35px;
+    }
+    .container{
+        min-height: 773px;
+        background-color: aqua;
+        z-index: 3;
+        position: relative;
+    }
+   /*list-style property*/
+   .list-style{
+    padding: 10px;
+    list-style: square inside;
+   }
+    </style>
+</head>
+<body>
+    <!--responsive navbar-->
+    <h2>Responsive navbar</h2> <br>
+    <header class="header1">
+        <nav class="navbar1">
+            <ul class="ul1">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </header> <br>
+    <!--sticky navbar-->
+    <h2>Sticky navbar</h2><br>
+    <header class="header2">
+        <nav class="navbar2">
+            <ul class="ul2">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum molestiae aliquid vel veritatis eius commodi, dolorum quo eveniet ea dicta quasi nostrum tenetur optio et ab quidem in ducimus dolorem perferendis, dignissimos ut quisquam distinctio! Sed, provident dolor unde fugiat corporis eius harum tenetur repudiandae esse pariatur porro. Quasi, id ipsum. Placeat, itaque. Ducimus dignissimos officia aspernatur, magni in eligendi ullam corrupti possimus voluptatibus nulla, harum facere veniam. Laborum, omnis maiores ducimus pariatur corrupti magnam nam qui animi modi earum provident adipisci distinctio totam eveniet eligendi! Consectetur nulla temporibus aliquid, impedit itaque, harum exercitationem eos animi laboriosam reiciendis amet soluta quas veritatis modi recusandae eius molestias atque minima accusamus aut quod perferendis expedita. Enim quae accusamus amet. Animi eius, non unde eveniet placeat voluptatem temporibus qui corporis mollitia, veritatis deserunt. Perferendis, officia! Voluptatem doloremque est, ipsam sapiente exercitationem esse similique itaque iste obcaecati harum dolorum sit omnis illum odio vero saepe praesentium tempore eum culpa dolore. Nulla saepe aspernatur distinctio nemo, voluptatum unde laborum blanditiis natus dolorem consectetur! Placeat ex nesciunt, nobis minus explicabo ullam est praesentium, voluptatum rem eveniet ducimus, omnis aliquid quis nostrum nulla voluptate saepe aspernatur possimus illo eos quaerat exercitationem cum hic accusantium! Velit voluptates corrupti dolores labore suscipit, accusamus aliquid quam reprehenderit unde! Iure quos labore dolore placeat. Alias dicta, sapiente cumque temporibus doloremque vitae nemo maxime quaerat nobis animi provident soluta nulla distinctio quasi. Harum placeat minima officia recusandae unde corporis perspiciatis rerum sunt fugit aliquam nam ab veritatis quis accusantium commodi pariatur sapiente architecto voluptate minus blanditiis, et odit natus explicabo. Veniam voluptatibus atque adipisci eum quisquam at, molestias, qui vero soluta expedita asperiores voluptates veritatis tempore aliquam totam suscipit distinctio sed dolorem incidunt ipsam ullam nisi. Porro cum quod, voluptates perferendis minima corporis quaerat, ab a autem, repudiandae est at ipsa.
+    </div> 
+    <!--list-style-property-->
+    <div class="list">
+        <h2>List</h2>
+        <ul class="list-style">
+            <li>Juice</li>
+            <li>Coffee</li>
+            <li>Tea</li>
+        </ul>
+    </div>
+</body>
+</html>
